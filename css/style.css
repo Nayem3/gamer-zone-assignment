@@ -1,13 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
 }
 
 
 /* header part satrts from here */
+header {
+    width: 1920px;
+    height: 100px;
+    background: #FFF;
+}
 
 nav {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav>ul {
@@ -39,11 +47,50 @@ nav li a {
     -webkit-background-clip: text;
     color: transparent;
 }
-.nav-right-container{
+
+.nav-right-container {
     display: flex;
 }
-.nav-right ul{
+
+.nav-right ul {
     display: flex;
+}
+
+.left-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-right-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.left-nav img {
+    height: 32px;
+    padding: 24px;
+    padding-right: 20px;
+}
+
+.nav-right-two ul {
+    display: flex;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-right-two img {
+    height: 24px;
+    margin-right: 20px;
+
 }
 
 /* header part end here */
