@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header part satrts from here */
+
+nav {
+    display: flex;
+}
+
+nav>ul {
+    display: flex;
+    text-decoration: none;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #3C354F;
+}
+
+.section-title {
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.section-title>span {
+    background: linear-gradient(90deg, #d83b8c 50%, #FF42A5 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.nav-right-container{
+    display: flex;
+}
+.nav-right ul{
+    display: flex;
+}
+
+/* header part end here */
